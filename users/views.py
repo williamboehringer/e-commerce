@@ -36,7 +36,7 @@ def add_product(request):
             return redirect('my_store')
     else:
         form = ProductForm()
-    return render(request, 'users/add_product.html', {'title': 'Add product', 'form': form})
+    return render(request, 'users/product_form.html', {'title': 'Add product', 'form': form})
 
 @login_required
 def edit_product(request, pk):
@@ -52,7 +52,7 @@ def edit_product(request, pk):
 
 
     form = ProductForm(instance=product)
-    return render(request, 'users/add_product.html', 
+    return render(request, 'users/product_form.html', 
     {'title': 'Edit product',
      'product': product,
      'form': form})
