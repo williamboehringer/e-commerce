@@ -7,7 +7,6 @@
 
     <h2 class="text-xs text-gray-600">Search results for "{{ query }}":</h2>
     {% if products %}
-    <div class="flex flex-wrap">
         {% include 'store/partials/products.html' %}
     </div>
     {% else %}

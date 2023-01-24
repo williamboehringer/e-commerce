@@ -1,7 +1,39 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q
-# Create your views here.
+from .cart import Cart
 from .models import Product, Category
+# Create your views here.
+
+def add_to_cart(request, product_id):
+    cart = Cart(request)
+    cart.add(product_id)
+
+    return redirect('cart_view')
+
+def remove_from_cart(request, product_id):
+    cart = Cart(request)
+    cart.remove(product_id)
+
+    return redirect('cart_view')
+
+def change_quantity(request, product_id):
+    action = request.GET.get('action', '')
+
+    if action:
+        quantity = 1
+
+        if action == 'decrease':
+            quantity = -1
+
+        cart = Cart(request)
+        cart.add(product_id, quantity, True)
+    
+    return redirect('cart_view')
+
+
+def cart_view(request):
+    cart = Cart(request)
+    return render(request, 'store/cart_view.html', {'cart': cart})
 
 def category_detail(request, slug):
     category = get_object_or_404(Category, slug=slug)
@@ -19,3 +51,4 @@ def search(request):
      | Q(description__icontains=query))
 
      return render(request, 'store/search.html', {'query': query, 'products': products})
+
