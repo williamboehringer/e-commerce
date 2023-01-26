@@ -62,7 +62,7 @@ class Product(models.Model):
  
                 return self.thumbnail.url
             else:
-                return 'https://via.placeholder.com/240x240x.jpg'
+                return '/media/uploads/product_images/thumbnail/placeholder.jpg'
 
     def make_thumbnail(self, image):
         img = Image.open(image)
@@ -84,7 +84,7 @@ class Order(models.Model):
     city = models.CharField(max_length=255)
     paid_amount = models.IntegerField(blank=True, null=True)
     is_paid = models.BooleanField(default=False)
-    merchant_id = models.CharField(max_length=255)
+    payment_intent = models.CharField(max_length=255, null=True)
     created_by = models.ForeignKey(User, related_name='orders', on_delete=models.SET_NULL, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
