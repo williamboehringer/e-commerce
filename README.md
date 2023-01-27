@@ -18,7 +18,8 @@
 ![homepage](https://user-images.githubusercontent.com/104523477/215153518-06b571fc-ef6c-4cd7-b1fc-01807dd808f5.png)
 
 ### Product detail page
-![product-detail](https://user-images.githubusercontent.com/104523477/215153541-0522339b-c396-4fae-8dc5-af4567931572.png
+![product-detail](https://user-images.githubusercontent.com/104523477/215157632-bcad8b25-b92a-402e-9eaa-149e6465fc2b.png)
+
 
 ### Vendor store page
 ![vendor-store](https://user-images.githubusercontent.com/104523477/215153737-5d880888-7510-4c34-a849-d537b4ea4c5e.png)
