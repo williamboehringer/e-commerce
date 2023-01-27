@@ -1,4 +1,4 @@
-# Standard Blog
+# Multivendor e-commerce
 <br>
 
 ## 🧪 Technologies used in this project
@@ -10,24 +10,22 @@
 
  # ❓ What it does?
 
-### It's an in development blog to publish and share articles/posts. It allows you to link tags to your publication and search for related posts. It is also possible to comment and reply to comments in the publications.
+### This multivendor e-commerce allows you to buy and also sell. You are able to just shop or start your own store, add products, sell them trough stripe's credit card system and see the orders your store have done.
 
 ### Here are some screenshots of the blog:
 
 ### Homepage
-![index-screen](https://user-images.githubusercontent.com/104523477/215147910-441afc3a-dfb8-4432-ba5f-05ec6b5eb408.jpg)
+![homepage](https://user-images.githubusercontent.com/104523477/215153518-06b571fc-ef6c-4cd7-b1fc-01807dd808f5.png)
 
+### Product detail page
+![product-detail](https://user-images.githubusercontent.com/104523477/215153541-0522339b-c396-4fae-8dc5-af4567931572.png
 
-### Posts page
-![posts-page](https://user-images.githubusercontent.com/104523477/215147935-3d0ddbfc-9448-4bbb-af4d-639720df5118.jpg)
+### Vendor store page
+![vendor-store](https://user-images.githubusercontent.com/104523477/215153737-5d880888-7510-4c34-a849-d537b4ea4c5e.png)
 
+### Cart page
+![cart](https://user-images.githubusercontent.com/104523477/215153499-36850cfc-0a06-4448-a21e-ea18b14683c6.png)
 
-### Post Detail Page
-![detail page](https://user-images.githubusercontent.com/104523477/215147924-b3d3457c-bca4-4db6-801f-d76a2abca304.jpg)
-
-
-### Search page
-![search-page](https://user-images.githubusercontent.com/104523477/215147951-632a8313-8af4-4b7f-a9b6-fdb0710ec01c.png)
 
 <br>
 
