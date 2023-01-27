@@ -10,7 +10,7 @@
 
  # ❓ What it does?
 
-### This multivendor e-commerce allows you to buy and also sell. You are able to just shop or start your own store, add products, sell them trough stripe's credit card system and see the orders your store have done.
+### This multivendor e-commerce allows you to buy and also sell. You are able to just shop or start your own store, add products, sell them trough stripe's payment system and see the orders your store have done.
 
 ### Here are some screenshots of the blog:
 
