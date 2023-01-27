@@ -12,7 +12,7 @@
 
 ### This multivendor e-commerce allows you to buy and also sell. You are able to just shop or start your own store, add products, sell them trough stripe's payment system and see the orders your store have done.
 
-### Here are some screenshots of the blog:
+### Here are some screenshots of the website:
 
 ### Homepage
 ![homepage](https://user-images.githubusercontent.com/104523477/215153518-06b571fc-ef6c-4cd7-b1fc-01807dd808f5.png)
