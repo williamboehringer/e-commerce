@@ -10,7 +10,9 @@
 
  # ❓ What it does?
 
-### This multivendor e-commerce allows you to buy and also sell. You are able to just shop or start your own store, add products, sell them trough stripe's payment system and see the orders your store have done.
+### This multivendor e-commerce allows you to buy and also sell. You are able to just shop or start your own store, add products, sell them trough stripe's payment system and see the orders your store have done. Made through the course "Python Django Project Ecommerce Website With Multiple Vendors"
+
+### Link to the course: https://www.youtube.com/watch?v=-QFZsX0b9Cg
 
 ### Here are some screenshots of the website:
 
@@ -18,7 +20,8 @@
 ![homepage](https://user-images.githubusercontent.com/104523477/215153518-06b571fc-ef6c-4cd7-b1fc-01807dd808f5.png)
 
 ### Product detail page
-![product-detail](https://user-images.githubusercontent.com/104523477/215153541-0522339b-c396-4fae-8dc5-af4567931572.png
+![product-detail](https://user-images.githubusercontent.com/104523477/215157632-bcad8b25-b92a-402e-9eaa-149e6465fc2b.png)
+
 
 ### Vendor store page
 ![vendor-store](https://user-images.githubusercontent.com/104523477/215153737-5d880888-7510-4c34-a849-d537b4ea4c5e.png)
